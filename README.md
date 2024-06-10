@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Sygma ERC20 deployment 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Simple ERC20 contract 
 
-Try running some of the following tasks:
+to configure edit SEPOLIA_PRIVATE_KEY and ALCHEMY_API_KEY in https://github.com/akablockchain1/sygma_test_contract/blob/main/hardhat.config.js
+
+to deploy run:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/sygma-erc20.js
 ```
